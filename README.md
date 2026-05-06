@@ -21,6 +21,7 @@ npx skills@latest install https://github.com/pausegarra/skills.git
 
 - [`imagegen`](skills/imagegen/README.md): Enables controlled image generation only when explicitly authorized with `#imagegen`.
 - [`n8n-workflow-cli`](skills/n8n-workflow-cli/README.md): Standardizes safe n8n workflow management through `n8n-cli workflow` commands.
+- [`spec-definition`](skills/spec-definition/README.md): Turns user stories into reviewable product specifications by making assumptions explicit.
 
 ## How to Add a New Skill
 
