@@ -33,6 +33,7 @@ Commit plan:
 Interaction rules:
 - After showing the commit plan, STOP and ask for confirmation using selectable options.
 - Do not create commits until the user explicitly approves the plan.
+- Use `request_user_input` for both confirmations. Do not ask for typed commands like `continue`, `push`, `yes`, or free-text confirmations.
 - Preferred confirmation style:
   - ✅ Continue with commits
   - ✏️ Modify grouping
@@ -41,6 +42,7 @@ Interaction rules:
 - Ask separately for push confirmation using selectable options:
   - 🚀 Push branch
   - ❌ Cancel push
+- If `request_user_input` is unavailable in current mode, stop and tell user to rerun this skill in a mode that supports selectable prompts; do not continue with text-input fallback.
 
 Flow:
 1. Inspect repository state.

@@ -16,10 +16,11 @@ Rules:
 
 - If working tree is NOT clean:
   - Show uncommitted changes
-  - Ask user what to do:
+  - Ask user what to do using `request_user_input` selectable options:
     - Continue without touching current uncommitted changes
     - Abort release process
   - Stop until user selects option
+  - Do not ask for typed commands like `continue`, `yes`, `push`, or free-text confirmations
 
 - Fetch latest tags:
   - `git fetch --tags`
@@ -75,6 +76,11 @@ Rules:
 - Show ONLY release-related diff if possible
 
 - Ask confirmation before continuing
+  - Use `request_user_input` selectable options:
+    - ✅ Continue release
+    - ❌ Cancel release
+  - Do not continue until user selects an option
+  - Do not use text-input fallback
 
 - If working tree was clean:
   - Commit release version bump:
@@ -92,6 +98,13 @@ Rules:
   - `git tag -a <new-version> -m "<new-version>"`
 
 - Ask confirmation before push
+  - Use `request_user_input` selectable options:
+    - 🚀 Push tag (and branch if applicable)
+    - ❌ Cancel push
+  - Do not push until user selects an option
+  - Do not use text-input fallback
+
+- If `request_user_input` is unavailable in current mode, stop and tell user to rerun this skill in a mode that supports selectable prompts; do not continue with text-input fallback
 
 - Push tag:
   - `git push origin <new-version>`
