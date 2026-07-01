@@ -1,4 +1,5 @@
 ---
+name: tag
 description: Bump repo version, create git tag, and push
 argument-hint: <major|minor|patch>
 ---
