@@ -26,6 +26,7 @@ npx skills@latest install https://github.com/pausegarra/skills.git
 - [`n8n-workflow-cli`](skills/n8n-workflow-cli/README.md): Standardizes safe n8n workflow management through `n8n-cli workflow` commands.
 - [`spec-definition`](skills/spec-definition/README.md): Turns user stories into reviewable product specifications by making assumptions explicit.
 - [`tag`](skills/tag/README.md): Runs a guarded semantic-version release flow with version bump, annotated tag, and push confirmations.
+- [`xpdf`](skills/xpdf/README.md): Creates, inspects, renders, and visually verifies PDF artifacts.
 
 ## How to Add a New Skill
 
