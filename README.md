@@ -25,6 +25,7 @@ npx skills@latest install https://github.com/pausegarra/skills.git
 - [`n8n-mcp-server`](skills/n8n-mcp-server/README.md): Standardizes safe n8n workflow and execution management through MCP server tools.
 - [`n8n-workflow-cli`](skills/n8n-workflow-cli/README.md): Standardizes safe n8n workflow management through `n8n-cli workflow` commands.
 - [`spec-definition`](skills/spec-definition/README.md): Turns user stories into reviewable product specifications by making assumptions explicit.
+- [`structuring-hexagonal-projects`](skills/structuring-hexagonal-projects/README.md): Applies a consistent language-independent hexagonal structure across software projects.
 - [`tag`](skills/tag/README.md): Runs a guarded semantic-version release flow with version bump, annotated tag, and push confirmations.
 - [`xpdf`](skills/xpdf/README.md): Creates, inspects, renders, and visually verifies PDF artifacts.
 
