@@ -22,6 +22,7 @@ npx skills@latest install https://github.com/pausegarra/skills.git
 
 - [`commit-all`](skills/commit-all/README.md): Groups current repository changes into semantic commits with an approval step before commit and push.
 - [`imagegen`](skills/imagegen/README.md): Enables controlled image generation only when explicitly authorized with `#imagegen`.
+- [`merge-pr-squash-tag`](skills/merge-pr-squash-tag/README.md): Squash-merges a pull request, updates its principal branch locally, and creates and pushes a tag using repository conventions.
 - [`n8n-mcp-server`](skills/n8n-mcp-server/README.md): Standardizes safe n8n workflow and execution management through MCP server tools.
 - [`n8n-workflow-cli`](skills/n8n-workflow-cli/README.md): Standardizes safe n8n workflow management through `n8n-cli workflow` commands.
 - [`spec-definition`](skills/spec-definition/README.md): Turns user stories into reviewable product specifications by making assumptions explicit.
