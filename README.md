@@ -31,6 +31,7 @@ npx skills@latest install https://github.com/pausegarra/skills.git
 - [`n8n-mcp-server`](skills/n8n-mcp-server/README.md): Standardizes safe n8n workflow and execution management through MCP server tools.
 - [`n8n-workflow-cli`](skills/n8n-workflow-cli/README.md): Standardizes safe n8n workflow management through `n8n-cli workflow` commands.
 - [`openfga-relation-naming`](skills/openfga-relation-naming/README.md): Names OpenFGA parent links with `in_*` and permission relations with `can_*`.
+- [`publish-process`](skills/publish-process/README.md): Commits, pushes, opens a PR, waits for the user's OK, then squash-merges, bumps version if needed, tags, and follows the release pipeline.
 - [`service-token-credentials`](skills/service-token-credentials/README.md): Finds service and environment credentials and builds token requests without exposing secrets.
 - [`spec-definition`](skills/spec-definition/README.md): Turns user stories into reviewable product specifications by making assumptions explicit.
 - [`structuring-hexagonal-projects`](skills/structuring-hexagonal-projects/README.md): Applies a consistent language-independent hexagonal structure across software projects.
